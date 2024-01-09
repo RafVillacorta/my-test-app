@@ -65,4 +65,8 @@ export class DealerInventoryComponent {
     }
   }
 
+  addVehicle(v: Vehicle) {
+    this.inventory.push(v)
+  }
+
 }
